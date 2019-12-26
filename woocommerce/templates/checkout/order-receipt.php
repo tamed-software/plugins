@@ -19,14 +19,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
+<style media="screen">
+.woo-slg-social-container-checkout {
 
+	border: 1px solid
+
+	#eee;
+	padding: 1.2em;
+	margin: 0 0 21px;
+	visibility: hidden;
+
+}
+</style>
 <ul class="order_details">
 	<li class="order">
-		<?php esc_html_e( 'Order number:', 'woocommerce' ); ?>
+		<?php esc_html_e( 'Número de orden:', 'woocommerce' ); ?>
 		<strong><?php echo esc_html( $order->get_order_number() ); ?></strong>
 	</li>
 	<li class="date">
-		<?php esc_html_e( 'Date:', 'woocommerce' ); ?>
+		<?php esc_html_e( 'Fecha:', 'woocommerce' ); ?>
 		<strong><?php echo esc_html( wc_format_datetime( $order->get_date_created() ) ); ?></strong>
 	</li>
 	<li class="total">
@@ -35,7 +46,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	</li>
 	<?php if ( $order->get_payment_method_title() ) : ?>
 	<li class="method">
-		<?php esc_html_e( 'Payment method:', 'woocommerce' ); ?>
+		<?php esc_html_e( 'Método de pago:', 'woocommerce' ); ?>
 		<strong><?php echo wp_kses_post( $order->get_payment_method_title() ); ?></strong>
 	</li>
 	<?php endif; ?>
