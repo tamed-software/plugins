@@ -1,0 +1,33 @@
+/**
+ * Settings Style
+ * http://mintplugins.com
+ */
+
+.mp-core-green-light{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background-color:#00FF00;	
+}
+
+.mp-core-red-light{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background-color:#F00;	
+}
+
+.mp-core-grey-light{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background-color:#999;	
+}
+
+.mp-core-clearedfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}

@@ -1,0 +1,83 @@
+/**
+ * Directory Style
+ * http://mintplugins.com
+ */
+
+.mp-core-directory .mp-directory-browser a{
+	text-decoration:none;
+}
+.mp-core-directory .mp-directory-browser a img{
+	width:100%;
+}
+.mp-core-directory .plugin-card-bottom{
+	position:relative;	
+}
+.mp-core-directory .mp-column-plugin-status{
+	position:absolute;
+	top:12px;
+	right:20px;
+}
+.mp-core-directory .mp-column-installation{
+	width:100%;
+	max-width:100%;
+}
+.mp-core-directory-license-input{
+	margin:0;	
+}
+.mp-core-directory .mp-core-directory-price h3{
+	text-align:right;
+	color:#0073AA;
+}
+.mp-core-directory .authors{
+	display:inline;
+	margin-right:10px;	
+}
+
+/* Directory Styles */
+.mp-core-directory-true-false-light{
+	padding:1px 5px 0px 0px;	
+	display:inline;
+}
+.mp-core-plugin-directory-license-wrap .mp-core-directory-license-input{
+	width:100%;	
+	max-width: 265px;
+	float: left;
+	margin-right: 10px;
+}
+.mp-core-directory-update-license-form p.submit,
+.mp-core-directory-new-license-form p.submit{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	text-align: left;
+	padding: 0px;	
+}
+.mp-core-directory .mp-directory-browser .mp-core-directory-update-license-form p.submit input,
+.mp-core-directory .mp-directory-browser .mp-core-directory-new-license-form p.submit input{
+	height: 26.5px;
+	line-height: 25px;
+}
+.mp-core-directory .mp-directory-install-btn{
+	float:right;	
+}
+.mp-core-directory .mp-core-directory-tab-description{
+	min-height:19px;	
+}
+@media screen and (max-width: 782px){
+	.mp-core-directory .mp-core-directory-tab-description{
+		min-height:55px;	
+	}
+}
+#mp-directory-items .plugin-card{
+	margin-left:0!important;
+}
+/*Pagination on Directory Pages */
+.mp-core-directory .tablenav{
+	display: inline-block;
+	float: right;
+}
+.mp-core-directory .mp-core-directory-paged-form{
+	display:inline;
+}
+.mp-core-directory .no-plugin-results{
+	position:relative!important;	
+}
