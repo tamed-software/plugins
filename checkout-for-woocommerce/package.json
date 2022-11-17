@@ -37,7 +37,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss": "^7.0.18",
     "postcss-loader": "^3.0.0",
-    "resolve-url-loader": "^3.1.0",
+    "resolve-url-loader": "^5.0.0",
     "sass-loader": "^7.3.1",
     "script-loader": "^0.7.2",
     "style-loader": "^0.23.1",
@@ -47,7 +47,7 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^1.1.2",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9",
+    "webpack-cli": "^3.3.12",
     "webpack-merge": "^4.2.2",
     "webpack-notifier": "^1.8.0",
     "webpack-shell-plugin": "^0.5.0"
